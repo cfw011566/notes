@@ -9,12 +9,12 @@
  App   | Firebase | server 
 :-----:|:--------:|:------:
 acc/pwd | --- | ---
- >> | acc/pwd  | ---
+ -> | acc/pwd  | ---
  -- | id/token | ---
-id/token | << | ---
->> | --- | id/token and revoke previous token
+id/token | <- | ---
+ -> | --- | id/token and revoke previous token
 api with token | --- | ---
->> | --- | verify token and check revoked
+ -> | --- | verify token and check revoked
 
 # Firestore
 
